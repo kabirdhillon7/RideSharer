@@ -54,5 +54,7 @@ extension RideHistoryViewController: UITableViewDelegate, UITableViewDataSource 
         alert.addAction(okAction)
         
         present(alert, animated: true)
+        
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }

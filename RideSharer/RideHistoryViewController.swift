@@ -50,7 +50,7 @@ extension RideHistoryViewController: UITableViewDelegate, UITableViewDataSource 
                                       message: "\(ride.1)",
                                       preferredStyle: .alert)
         
-        let okAction = UIAlertAction(title: "OK", style: .cancel)
+        let okAction = UIAlertAction(title: "OK", style: .default)
         alert.addAction(okAction)
         
         present(alert, animated: true)
